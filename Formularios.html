@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formularios - Prática</title>
+</head>
+<body>
+
+<h3> Treinamento com Formulários</h3>
+
+<form action="processa.php" method="post">
+
+	<label>Text</label>
+	<input type="text" name="texto1" placeholder="Digite seu texto aqui:">
+	<br>
+	<label>Password</label>
+	<input type="password" name="senha">
+	
+	<br>
+	<label>Oculto</label>
+	<input type="hidden" name="informacao_oculta" value="mensagem oculta">	
+	<br><br>
+	
+	<label><strong>Exemplo de Seleção:</strong></label>
+	<select name="selecao">
+			<option value="1">Opção 1 </option>
+			<option value="2">Opção 2 </option>
+	
+	</select>
+	<br><br>
+
+	<label>Exemplo de Radio:</label>
+	<input type="radio" name="radio1" value="1"> Valor 1
+	<input type="radio" name="radio1" value="2"> Valor 2
+	<br><br>
+	
+	<label>Exemplo de CheckBox: </label>
+	<input type="checkbox" name="ck1" value="1"> Valor 1
+	<input type="checkbox" name="ck1" value="2"> Valor 2
+	<input type="checkbox" name="ck1" value="3"> Valor 3
+	<input type="checkbox" name="ck1" value="4"> Valor 4	
+	<br><br>
+	
+	<input type="submit" name="submit1" value="Enviar">
+
+
+</form>
+
+
+
+
+
+<br><br><br>
+
+<a href="mEUiNDEX.HTML">Voltar para o Index</a>
+</body>
+</html>
